@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the first parallax */
+.parallax-1{
+    width: 100%;
+    height: 600px;
+    background: url(
+        'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+                    background-size: 100% 100%;
+                    background-attachment: fixed;
+}
+
+/* styling the title of parallax-1 */
+.parallax-1 h2{
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 250px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+/* Styling the parallax-2 */
+
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+/* styling the title of parallax2 */
+.parallax-2 h2{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    height: 32px;
+    width: 250px;
+    padding: 32px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+/* styling the content of para1 */
+.para-1 {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.para-2{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: wheat;
+}
